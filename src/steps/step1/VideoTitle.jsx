@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoDetail = () => {
+const VideoTitle = () => {
   return (
     <h3 className="text-primary font-inter text-lg font-normal leading-6">
       <span className="opacity-50">Video title &nbsp;</span>
@@ -11,4 +11,4 @@ const VideoDetail = () => {
   );
 };
 
-export default VideoDetail;
+export default VideoTitle;

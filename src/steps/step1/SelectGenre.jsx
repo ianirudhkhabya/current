@@ -1,14 +1,14 @@
 import Dropdown from "./Dropdown";
 
-const Genre = () => {
+const SelectGenre = () => {
   return (
     <div className="flex flex-col">
-      <p className="text-primary font-inter text-lg font-normal leading-6 opacity-50">
+      <h3 className="text-primary font-inter text-lg font-normal leading-6 opacity-50">
         Select genre of the video
-      </p>
+      </h3>
       <Dropdown />
     </div>
   );
 };
 
-export default Genre;
+export default SelectGenre;
