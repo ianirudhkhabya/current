@@ -10,9 +10,12 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"],
       },
       backgroundImage: {
         "custom-gradient": "linear-gradient(180deg, #170328 0%, #4A117A 100%)",
+        "line-gradient":
+          "linear-gradient(90deg, #FFF 0%, #F2D3FF 51.5%, #FFF 100%)",
       },
     },
   },
